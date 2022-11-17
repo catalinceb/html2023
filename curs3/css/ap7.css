@@ -1,0 +1,12 @@
+div{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 25px;
+    border: 5px  #000000 solid;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    background-color: aqua;
+    color: blueviolet;
+}

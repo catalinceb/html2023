@@ -1,0 +1,10 @@
+p{
+    color: red !important;
+    font-weight: bold;
+}
+p:hover{
+    color: blueviolet;
+}
+h1{
+    font-size: 12px;
+}

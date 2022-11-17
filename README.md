@@ -1,4 +1,4 @@
 # html2023
-prima modificare de pe github
+prima modificare pe github
 
-A doua modificare pe VS Code
+a doua modificare de pe Vs Code
