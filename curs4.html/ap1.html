@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicatia 1</title>
+    <style>
+        table {
+            border: 2px red solid;
+            border-collapse: collapse;
+        }
+        table tr td, table tr th{
+            border: 1px blue solid;
+            padding: 10px;
+        }
+        table tr:nth-child(2n){
+            color: blueviolet;
+            background-color: chartreuse;
+        }
+        table tr:nth-child(2n+1){
+            color: darkblue;
+            background-color: darkorange;
+        }
+        table tr:first-child{
+            background-color: deepskyblue;
+            color: hotpink;
+        }
+        table tr:hover{
+            background-color: indigo;
+            color: lawngreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primul meu tabel</h1>
+    <table>
+        <tr>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Telefon</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Popescu</td>
+            <td>Ion</td>
+            <td>0790003</td>
+            <td>popescu@demo.ro</td>
+        </tr>
+        <tr>
+            <td>Ionescu</td>
+            <td>Dan</td>
+            <td>078585756</td>
+            <td>dan.ionescu@test.com</td>
+        </tr>
+        <tr>
+            <td>Gavrila</td>
+            <td>Stefan</td>
+            <td>07854321</td>
+            <td>gavrila@demo.ro</td>
+        </tr>
+        <tr>
+            <td>Hamit</td>
+            <td>Andrei</td>
+            <td>07070707</td>
+            <td>hamit.andrei@test.com</td>
+        </tr>
+    </table>
+</body>
+</html>
