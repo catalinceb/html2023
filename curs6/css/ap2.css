@@ -1,0 +1,19 @@
+h1{
+    border-bottom: 2px solid blueviolet;
+}
+div{
+   margin: auto;
+   width: 600px;
+}
+input{
+  padding: 10px,5px;
+}
+#submit{
+  color:white;
+  background-color: blue;
+}
+label{
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+}

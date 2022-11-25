@@ -1,0 +1,16 @@
+div{
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border: 2px solid red;
+    border-radius: 15px;
+    float: left;
+    overflow: hidden;
+    outline-style: auto;
+    outline-width: 13px;
+    outline-color: blueviolet;
+    outline-offset: 13px;
+}
+#div2{
+    /* display: none; */
+}
