@@ -1,0 +1,37 @@
+ul{
+    width: 100%;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: slategray;
+    text-align: center;
+}
+ul >li{
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+li:hover, .active{
+    color: blue;
+    background-color: red;
+} 
+ul>li ul.submeniu{
+    display: none;
+}
+ul>li:hover{
+    position: relative;
+}
+ul>li:hover ul.submeniu{
+    display: block;
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 20px;
+}
+.submeniu li{
+    display: inline-block;
+}

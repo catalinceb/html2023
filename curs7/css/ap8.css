@@ -1,0 +1,42 @@
+#section{
+    border: 5px solid;
+    color: blueviolet;
+}
+#first-div{
+    border: 5px solid;
+    color: #3dad00;
+    width: 64%;
+    float: left;
+    margin: 25px;
+}
+.paragraf{
+    padding: 25px;
+    margin: 0;
+    color: black;
+}
+#second-div {
+    border: 5px solid;
+    color: #ad0028;
+    width: 30%;
+    float: left;
+    margin: 25px 0;
+    text-align: center;
+}
+figure {
+    padding: 0;
+    margin: 0px;
+}
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.claerfix {
+    display: inline-block;
+}
+figcaption {
+    color: black;
+}
